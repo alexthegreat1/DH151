@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Hello World</title>
+		<meta charset="utf-8" />
+
+		<!-- style sheets -->
+		<link rel="stylesheet" href="css/style.css" />
+
+		<!-- leaflet -->
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		/>
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+	</head>
+
+	<body>
+		<div class="header"><h1>My Map</h1></div>
+		<div class="sidebar">
+			<p>
+				This is a map of the different cities I've visited, each in a
+				different country.
+			</p>
+		</div>
+		<div class="content">
+			<div id="map"></div>
+		</div>
+
+		<script>
+			// cities I've gone to, each in a different country
+			const cities = [
+				{
+					title: "Los Angeles, USA",
+					description:
+						"I was born in LA county and have lived here all my life.",
+					latitude: 34.052235,
+					longitude: -118.243683,
+				},
+				{
+					title: "Vancouver, CAN",
+					description: "Visited when I was 13.",
+					latitude: 49.2827,
+					longitude: -123.1207,
+				},
+				{
+					title: "Puerto Vallarta, MEX",
+					description: "Visited twice, last time when I was 10.",
+					latitude: 20.6534,
+					longitude: -105.2253,
+				},
+				{
+					title: "Paris, FRA",
+					description:
+						"Visited twice, last time when I was 16. Some of my dad's family lives here.",
+					latitude: 48.8566,
+					longitude: 2.3522,
+				},
+				{
+					title: "Yerevan, ARM",
+					description:
+						"Visited three times, last time when I was 18. Most of my mom's family lives here.",
+					latitude: 40.1872,
+					longitude: 44.5152,
+				},
+			];
+
+			var map = L.map("map").setView([34.0697, -60.4432], 3); // coords and zoom level
+
+			L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+				attribution:
+					'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+			}).addTo(map);
+
+			cities.forEach(function (city) {
+				L.marker([city.latitude, city.longitude])
+					.addTo(map)
+					.bindPopup(
+						`<h1>${city.title}</h1><p>${city.description}</p>`
+					);
+			});
+		</script>
+	</body>
+</html>
