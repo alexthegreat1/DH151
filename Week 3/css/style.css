@@ -1,0 +1,63 @@
+body,
+html {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+h1,
+h2,
+p,
+.sidebar-item {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+	font-size: 25px;
+}
+
+#map {
+	height: 100%;
+}
+
+body {
+	display: grid;
+	grid-template-rows: 80px 1fr;
+	grid-template-columns: 300px 1fr;
+	grid-template-areas:
+		"header header"
+		"sidebar content";
+}
+
+.header {
+	grid-area: header;
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+}
+
+.sidebar {
+	grid-area: sidebar;
+	padding: 15px;
+	background-color: #555;
+	color: #fff;
+	font-size: 25px;
+}
+
+.content {
+	grid-area: content;
+}
+
+.sidebar-item {
+	padding: 10px;
+	background: gainsboro;
+	border: 1px solid gray;
+	margin-bottom: 5px;
+	color: #333;
+	cursor: pointer;
+	border-radius: 13px;
+}
+
+.sidebar-item:hover {
+	box-shadow: 6px 6px 6px #333;
+}
