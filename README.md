@@ -11,3 +11,9 @@
 ## Week 3
 
 [Map](Week%203/index.html)
+
+## Week 4
+
+[Lab Map](Week%204/Lab/index.html)
+
+[Individual Assignment Map](Week%204/Individual/index.html)
