@@ -1,0 +1,9 @@
+# W6 Thinking Cap
+
+## What are your thoughts on "thick mapping in the digital humanities," and how does it differ from "mapping?"
+
+I understand thick mapping as taking mapping and expanding it in every possible direction. This could be through time, showing how something has changed over hundreds or thousands of years. It could show how something changes over time or delve deeper into what something is at a current point in time. This could also be through different sources or narratives. Regardless of the ways we can extend it, thick mapping is about taking all these differing aspects and connecting/combining them to give a full representation of a location. A key feature of thick maps, according to the book, is that they "are infinitely extensible and participatory, open to the unknown and to futures that have not yet come" (19). This means that thick maps are never done and can be expanded in ways we don't even know about yet. Also, they can be driven by many people.
+
+## How does the theory of "thick mapping" inform narratives that are influencing your life?
+
+Thick mapping is about showing us things, whether that be human experiences, differing narratives, or trends, that would be difficult to understand or see otherwise. It can help inform you about what's happening at a certain location that might have an impact on how you see the world. By combining so many different factors into one, it helps us understand how different things are connected and gives us a much larger scope to get more perspective. On the other hand, it can also be a way to share your story with the world and add it to an ever-expanding map.

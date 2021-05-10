@@ -17,3 +17,11 @@
 [Lab Map](Week%204/Lab/index.html)
 
 [Individual Assignment Map](Week%204/Individual/index.html)
+
+## Week 5
+
+[Map](Week%205/index.html)
+
+## Week 6
+
+[Thinking Cap](Week%206/W6%20Thinking%20Cap.md)
