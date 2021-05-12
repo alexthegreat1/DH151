@@ -25,3 +25,7 @@
 ## Week 6
 
 [Thinking Cap](Week%206/W6%20Thinking%20Cap.md)
+
+## Week 7
+
+[Map](Week%207/index.html)
