@@ -29,3 +29,7 @@
 ## Week 7
 
 [Map](Week%207/index.html)
+
+## Week 8
+
+[Thinking Cap](Week%208/../Week%208/W8%20Thinking%20Cap.md)
