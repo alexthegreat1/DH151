@@ -32,4 +32,10 @@
 
 ## Week 8
 
-[Thinking Cap](Week%208/../Week%208/W8%20Thinking%20Cap.md)
+[Thinking Cap](Week%208/W8%20Thinking%20Cap.md)
+
+## Week 9
+
+[Map](Week%209/index.html)
+
+[Thinking Cap](Week%209/W9%20Thinking%20Cap.md)
